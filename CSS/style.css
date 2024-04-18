@@ -1,0 +1,143 @@
+/* Schriftarten einfügen */
+@font-face {
+    font-family: Whisper;
+    src: url(../fonts/Whisper/Whisper-Regular.ttf);
+}
+@font-face {
+    font-family: Kalnia;
+    src: url(../fonts/Kalnia/Kalnia-VariableFont_wdth\,wght.ttf);
+}
+/* Icons farblich anpassen */
+li ion-icon {
+    color: blue;
+}
+
+li:nth-of-type(2) ion-icon {
+    color: purple;
+}
+/* Bestimmung der Schriftarten für verschiedene Elemente */
+header h1{
+    font-family: Whisper;
+}
+header a {
+    font-family: Kalnia;
+}
+
+
+body {
+    font-family: kalnia;
+}
+/* Header Bildgröße anpassen */
+header img {
+    width:100%;
+}
+/* Bannertext postionieren und anpassen */
+#bannertext{
+    text-shadow: 3px 3px 3px red;
+    font-size: 3rem;
+    width: auto;
+    color: black;
+    margin-top: -20%;
+}
+/* Navigationsleiste einstellen */
+.navi{
+    padding: 50px;
+    font-size: 25px;
+    margin-top: 190px;
+    margin-left: -1%;
+}
+.navi a{
+    text-decoration: none;
+    background-color: black;
+    border: 2px black solid;
+    color: red;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* Hintergrundfarbe anpassen */
+body {
+    background-color: black;
+}
+/* Border für Gestaltung */
+/* div {
+    border:  white solid;
+}
+section {
+    border:  blue solid;
+} */
+
+/* ende border elemente für gestaltungsphase */
+
+/* seitlichen Rand entfernen */
+* {
+    box-sizing:border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aussehen der verschieden Schrift-Elemente bearbeiten */
+p {
+    color: red;
+    font-size: 15px; 
+}
+h1 {
+    color: red;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 40px;
+    margin-left: 50px;
+}
+h2{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: orange;
+    text-shadow: 2px 2px 2px orangered;
+    font-size: 30px;
+}
+h3{
+    margin-top: 75px;
+    color: red;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 25px;
+}
+
+/* Aussehen von Hypelinks bearbeiten */
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: red
+    ;
+}
+
+a:active {
+box-shadow: 2px 2px 15px orangered ;
+}
+
+/* Text Positionierung */
+div {
+    margin-left: 3%;
+    margin-right: 3% ;
+    text-align: left;
+}
+
+div p {
+    margin-top: 2%;
+}
+
+/* footer Postionierung und Aussehen */
+
+footer {
+    margin-top: 200px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    font-size: larger;
+    padding: 5%;
+    margin-right: 50px;
+    margin-top: -5%;
+}
